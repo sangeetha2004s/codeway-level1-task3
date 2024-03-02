@@ -11,6 +11,7 @@
         <nav class="navbar">
             <div class="container">
                 <h1 class="logo">TechSolutions</h1>
+                <img src="us3.png" alt="User 2" class="logo-img">
                 <ul class="nav-links">
                     <li><a href="#features">Features</a></li>
                     <li><a href="#pricing">Pricing</a></li>
@@ -94,13 +95,13 @@
             <h2 class="section-title">Testimonials</h2>
             <div class="testimonials">
                 <div class="testimonial">
-                    <img src="user1.jpg" alt="User 1" class="testimonial-img">
+                    <img src="us1.png" alt="User 1" class="testimonial-img">
                     <p class="testimonial-text">"TechSolutions has transformed the way we manage projects. It's intuitive, efficient, and has improved our team collaboration immensely."</p>
                     <h3 class="testimonial-name">John Doe</h3>
                     <p class="testimonial-job">CEO, TechCorp</p>
                 </div>
                 <div class="testimonial">
-                    <img src="user2.jpg" alt="User 2" class="testimonial-img">
+                    <img src="us2.png" alt="User 2" class="testimonial-img">
                     <p class="testimonial-text">"I've tried many project management tools, but TechSolutions stands out with its simplicity and powerful features. Highly recommended!"</p>
                     <h3 class="testimonial-name">Jane Smith</h3>
                     <p class="testimonial-job">Founder, InnovateX</p>
@@ -127,10 +128,16 @@
         </div>
     </footer>
 
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
+
 landing_page.css
 
+/* styles.css */
 
 /* Resetting default styles */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -142,7 +149,13 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
 }
-
+.logo-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    margin-right: 100px;
+}
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -451,8 +464,3 @@ body {
         font-size: 14px;
     }
 }
-
-
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-</body>
-</html>
