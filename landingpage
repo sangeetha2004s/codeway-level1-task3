@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechSolutions - Project Management Made Easy</title>
+    <link rel="stylesheet" href="landing_page.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <h1 class="logo">TechSolutions</h1>
+                <ul class="nav-links">
+                    <li><a href="#features">Features</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="container">
+                <h1 class="hero-title">Simplify Your Project Management Process</h1>
+                <p class="hero-subtitle">TechSolutions provides a powerful platform to streamline your projects and collaborate with your team effectively.</p>
+                <a href="#signup" class="btn btn-primary">Get Started</a>
+            </div>
+        </div>
+    </header>
+    
+    <section id="features" class="features-section">
+        <div class="container">
+            <h2 class="section-title">Features</h2>
+            <div class="features">
+                <div class="feature">
+                    <i class="fas fa-mobile-alt feature-icon"></i>
+                    <h3 class="feature-title">Responsive Design</h3>
+                    <p class="feature-description">Access your projects and tasks on the go with our mobile-friendly interface.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-cogs feature-icon"></i>
+                    <h3 class="feature-title">Customizable Workflows</h3>
+                    <p class="feature-description">Tailor the project management process to fit your team's unique needs and preferences.</p>
+                </div>
+                <div class="feature">
+                    <i class="fas fa-chart-line feature-icon"></i>
+                    <h3 class="feature-title">Advanced Analytics</h3>
+                    <p class="feature-description">Gain insights into project performance and make data-driven decisions to drive success.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="pricing" class="pricing-section">
+        <div class="container">
+            <h2 class="section-title">Pricing</h2>
+            <div class="pricing-plans">
+                <div class="pricing-plan">
+                    <h3 class="plan-title">Basic</h3>
+                    <p class="plan-price">Rs.50<span>/month</span></p>
+                    <ul class="plan-features">
+                        <li>Up to 5 Projects</li>
+                        <li>Basic Support</li>
+                        <li>Limited Analytics</li>
+                    </ul>
+                    <a href="#" class="btn btn-secondary">Choose Plan</a>
+                </div>
+                <div class="pricing-plan">
+                    <h3 class="plan-title">Pro</h3>
+                    <p class="plan-price">Rs.150<span>/month</span></p>
+                    <ul class="plan-features">
+                        <li>Unlimited Projects</li>
+                        <li>Premium Support</li>
+                        <li>Advanced Analytics</li>
+                    </ul>
+                    <a href="#" class="btn btn-secondary">Choose Plan</a>
+                </div>
+                <div class="pricing-plan">
+                    <h3 class="plan-title">Enterprise</h3>
+                    <p class="plan-price">Rs.300<span>/month</span></p>
+                    <ul class="plan-features">
+                        <li>Custom Solutions</li>
+                        <li>Dedicated Account Manager</li>
+                        <li>24/7 Support</li>
+                    </ul>
+                    <a href="#" class="btn btn-secondary">Choose Plan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">Testimonials</h2>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <img src="user1.jpg" alt="User 1" class="testimonial-img">
+                    <p class="testimonial-text">"TechSolutions has transformed the way we manage projects. It's intuitive, efficient, and has improved our team collaboration immensely."</p>
+                    <h3 class="testimonial-name">John Doe</h3>
+                    <p class="testimonial-job">CEO, TechCorp</p>
+                </div>
+                <div class="testimonial">
+                    <img src="user2.jpg" alt="User 2" class="testimonial-img">
+                    <p class="testimonial-text">"I've tried many project management tools, but TechSolutions stands out with its simplicity and powerful features. Highly recommended!"</p>
+                    <h3 class="testimonial-name">Jane Smith</h3>
+                    <p class="testimonial-job">Founder, InnovateX</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <form action="#" class="contact-form">
+                <input type="text" class="form-control" placeholder="Your Name">
+                <input type="email" class="form-control" placeholder="Your Email">
+                <textarea class="form-control" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 TechSolutions. All rights reserved.</p>
+        </div>
+    </footer>
+
+landing_page.css
+
+
+/* Resetting default styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Global styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header styles */
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #ffc107;
+}
+
+/* Hero section styles */
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.hero-title {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+/* Button styles */
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: #ffc107;
+    color: #333;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Features section styles */
+.features-section {
+    padding: 100px 0;
+}
+
+.section-title {
+    font-size: 36px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.features {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 0 10px;
+}
+
+.feature-icon {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.feature-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature-description {
+    color: #666;
+}
+
+/* Pricing section styles */
+.pricing-section {
+    background-color: #f4f4f4;
+    padding: 100px 0;
+}
+
+.pricing-plans {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing-plan {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.plan-title {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.plan-price {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.plan-price span {
+    font-size: 18px;
+    color: #333;
+}
+
+.plan-features {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.plan-features li {
+    margin-bottom: 10px;
+}
+
+/* Testimonials section styles */
+.testimonials-section {
+    padding: 100px 0;
+}
+
+.testimonial {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.testimonial-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.testimonial-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.testimonial-name {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.testimonial-job {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Contact section styles */
+.contact-section {
+    padding: 100px 0;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-control {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Footer styles */
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .navbar {
+        justify-content: space-between;
+    }
+
+    .nav-links li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .hero-title {
+        font-size: 36px;
+    }
+
+    .hero-subtitle {
+        font-size: 20px;
+    }
+
+    .btn {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+
+    .section-title {
+        font-size: 30px;
+    }
+
+    .plan-title {
+        font-size: 24px;
+    }
+
+    .plan-price {
+        font-size: 30px;
+    }
+
+    .plan-price span {
+        font-size: 16px;
+    }
+
+    .testimonial-img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .testimonial-text {
+        font-size: 16px;
+    }
+
+    .testimonial-name {
+        font-size: 18px;
+    }
+
+    .testimonial-job {
+        font-size: 14px;
+    }
+
+    .form-control {
+        font-size: 14px;
+    }
+}
+
+
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>
